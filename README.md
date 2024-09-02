@@ -10,7 +10,7 @@ Title:
   github clone and exract data from github
 
 # Necessary libraries
-  [python lib] 
+  [python lib]
   import streamlit as st
   from streamlit_option_menu import option_menu
   import PIL
