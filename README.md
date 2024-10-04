@@ -10,20 +10,20 @@ Title:
   github clone and exract data from github
 
 # Necessary libraries
-  [python lib]
-  import streamlit as st
-  from streamlit_option_menu import option_menu
-  import PIL
-  from PIL import Image
-  import os
-  import json
-  import pandas as pd
-  import numpy as np
-  import requests
-  
-  [SQL lib]
-  import mysql.connector
-  import sqlalchemy
-  from sqlalchemy import create_engine
-  import pymysql
-  import plotly.express as px
+  [SQL libraries]
+import mysql.connector
+import sqlalchemy
+from sqlalchemy import create_engine
+import pymysql
+import plotly.express as px
+
+
+import streamlit as st
+from streamlit_option_menu import option_menu
+import PIL
+from PIL import Image
+import os
+import json
+import pandas as pd
+import numpy as np
+import requests
