@@ -1,0 +1,8 @@
+pandas                     -> data manipulation 
+streamlit_option_menu     
+streamlit
+pymysql  -> to connect sql to python
+sqlalchemy
+plotly
+numpy
+requests -> get access 
