@@ -30,7 +30,7 @@ phonepe is an transaction application more than 2000 + crores transaction has do
 # Importing the Libraries:
 Importing the libraries. As I have already mentioned above the list of libraries/modules needed for the project. First we have to import all those libraries. If the libraries are not installed already use the below piece of code to install.
 
-    ```!pip install ["Name of the library"]```
+    `!pip install ["Name of the library"]`
     
 If the libraries are already installed then we have to import those into our script by mentioning the below codes.
    ```python
@@ -42,7 +42,8 @@ If the libraries are already installed then we have to import those into our scr
     import json
     from streamlit_option_menu import option_menu
     from PIL import Image
-    from git.repo.base import Repo```
+    from git.repo.base import Repo
+```
 
 
 # Step 2:
@@ -63,7 +64,7 @@ agg_trans_list = os.listdir(path1)
 columns1 = {'State': [], 'Year': [], 'Quarter': [], 'Transaction_type': [], 'Transaction_count': [],'Transaction_amount': []}
 
 Looping through each and every folder and opening the json files appending only the required key and values and creating the dataframe.
-
+```python
   for state in agg_trans_list:
     cur_state = path1 + state + "/"
     agg_year_list = os.listdir(cur_state)
@@ -89,10 +90,10 @@ Looping through each and every folder and opening the json files appending only 
                 columns1['Quarter'].append(int(file.strip('.json')))
             
 df = pd.DataFrame(columns1)
-
+```
 # Converting the dataframe into csv file
 
-      df.to_csv('filename.csv',index=False)
+      `df.to_csv('filename.csv',index=False)`
       
       
 # Step 4:
