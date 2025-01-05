@@ -30,10 +30,10 @@ phonepe is an transaction application more than 2000 + crores transaction has do
 # Importing the Libraries:
 Importing the libraries. As I have already mentioned above the list of libraries/modules needed for the project. First we have to import all those libraries. If the libraries are not installed already use the below piece of code to install.
 
-    !pip install ["Name of the library"]
+    ``!pip install ["Name of the library"]``
     
 If the libraries are already installed then we have to import those into our script by mentioning the below codes.
-   
+   ```python
     import pandas as pd
     import mysql.connector as sql
     import streamlit as st
