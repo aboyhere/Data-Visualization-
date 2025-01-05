@@ -1,5 +1,5 @@
-# Data Visualization(phonepe)
-Title:
+# Phonepe Pulse Data Visualization and Exploration
+### Title:
  Phonepe Pulse Data Visualization and Exploration: A User-Friendly Tool Using Streamlit and Plotly
 
 # Task
