@@ -122,6 +122,8 @@ To insert the datadrame into SQL first I've created a new database and tables us
         mydb.commit()
         
  
+### Sample Images
+![Screenshot_8-1-2025_124954_localhost](https://github.com/user-attachments/assets/bf9656f9-9fa7-4d93-9399-0a1db982e372)
 
 
 
